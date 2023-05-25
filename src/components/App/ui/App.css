@@ -1,0 +1,45 @@
+:root {
+  --width: 20%;
+}
+.itemList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: var(--width);
+  aspect-ratio: 1 / 1;
+  border-radius: 5px;
+  margin: 1%;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+  transition: all 0.3s;
+  color: aliceblue;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 6px #0a0a0a;
+}
+
+.btn:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 7px 9px -3px #a1a1a1;
+}
+
+.btn:active {
+  transform: scale(0.9);
+  box-shadow: none;
+}
+
+.btnAdd {
+  background-color: rgb(20, 229, 30);
+}
+
+.btnDelete {
+  background: red;
+}
